@@ -1,0 +1,30 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "db:generate-types": "supabase gen types typescript --project-id 'mieudyzdsnlxpfibmuvx' > ./libs/supabase/schema.ts"
+  },
+  "dependencies": {
+    "@nuxtjs/supabase": "^1.1.6",
+    "@nuxtjs/tailwindcss": "^6.11.4",
+    "@types/uuid": "^9.0.8",
+    "@vueuse/core": "^10.9.0",
+    "@xenova/transformers": "^2.16.1",
+    "nuxt": "^3.11.1",
+    "nuxt-primevue": "^0.3.1",
+    "openai": "^4.29.2",
+    "pdf-text": "^0.4.0",
+    "primeicons": "^6.0.1",
+    "primevue": "^3.49.1",
+    "uuid": "^9.0.1",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0",
+    "zod": "^3.22.4"
+  }
+}
